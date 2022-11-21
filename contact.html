@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Sebastian Lapalma - Contact me</title>
+    <meta name="description" content="A brief description">
+    <meta name="author" content="your Site name">
+
+    <!-- Open Graph Protocol-->
+    
+    <meta property="og:title" content="A brief description">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mysite">
+    <meta property="og:description" content="A description">
+    <meta property="og:image" content="image.png">
+    
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <!-- Include your CSS file here -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+</head>
+<body>
+    <nav>
+        <!-- Add your website navigation here -->
+        <div class="topnav" id="myTopnav">
+            <audio id="beep" preload="auto">
+                <source src="audio/beep.wav">
+            </audio>
+            <script>
+                var beepOne= $("#beep")[0];
+                $(".topnav")
+                .mouseover(function(){
+                    beepOne.play();
+                })
+            </script>
+            <audio id="boop" preload="auto" >
+                <source src="audio/boop.mp3">
+            </audio>
+            <script>
+                var audio = new Audio("audio/boop.mp3");
+                
+                audio.oncanplaythrough = function(){
+                    audio.play();
+                }
+            </script>
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="contact.html" class="active">Contact</a>
+            <a href="about.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <header>
+        <!-- Add your website name or logo here -->
+        <p>You can send me a message</p>
+    </header>
+    <main>
+        <h1 style="font-size:5vw;">Contact me</h1>
+        <!-- Add your main content here -->
+        <section>
+            <div class="container">
+                <form action="action_page.php">
+                    <label for="fname">First name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="First name..." required>
+
+                    <label for="lname">Last name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Last name..." required>
+                    
+                    <label for="country">Country</label>
+                    <select name="country" id="country">
+                        <option value="argentina">Argentina</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea name="subject" id="subject" placeholder="Write something to me..." style="height:200px"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <audio id="ring">
+            <source src="audio/ring.mp3">
+        </audio>
+        <script>
+            var audioRing = new Audio("audio/ring.mp3");
+        </script>
+        <!-- Add copyright notices and other footer content here -->
+        <p>Sebastian Lapalma</p><br>
+        <a onclick="audioRing.play()" href="https://github.com/SebaLapalma" target="_blank"><img src="github-svgrepo-com.svg" width="25x25" alt=""></a><a onclick="audioRing.play()" href="https://www.linkedin.com/in/sebastian-lapalma-564528221/" target="_blank"><img src="linkedin-svgrepo-com.svg" width="25x25" alt=""></a>
+    </footer>
+
+    <!-- Include your JavaScript files here -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
