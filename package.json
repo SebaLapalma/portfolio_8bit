@@ -8,7 +8,6 @@
   "description": "A webpage that shows a little of what I can do with HTML, CSS and JavaScript",
   "main": "index.php",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
