@@ -1,6 +1,9 @@
 {
   "name": "portfolio-2.0",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.17.0"
+  }
   "description": "A webpage that shows a little of what I can do with HTML, CSS and JavaScript",
   "main": "index.php",
   "scripts": {
