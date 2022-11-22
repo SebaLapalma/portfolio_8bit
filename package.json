@@ -4,6 +4,7 @@
   "description": "My portfolio",
   "main": "index.php",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
