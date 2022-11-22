@@ -2,6 +2,9 @@
   "name": "maqueta",
   "version": "1.0.0",
   "description": "My portfolio",
+  "engines": {
+    "node": "6.11.1"
+  },
   "main": "index.php",
   "scripts": {
     "build": "webpack",
