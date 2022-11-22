@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My portfolio",
   "engines": {
-    "node": "6.11.1"
+    "node": "16.17.0"
   },
   "main": "index.php",
   "scripts": {
