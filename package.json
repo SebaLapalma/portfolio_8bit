@@ -1,32 +1,24 @@
 {
-  "name": "portfolio-2.0",
+  "name": "maqueta",
   "version": "1.0.0",
-  "engines": {
-    "node": "16.17.0",
-    "npm": "8.15.0"
-  },
-  "description": "A webpage that shows a little of what I can do with HTML, CSS and JavaScript",
+  "description": "My portfolio",
   "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SebaLapalma/Portfolio_8_bit.git"
+    "url": "git+https://github.com/SebaLapalma/portfolio_8bit.git"
   },
   "keywords": [
-    "portfolio",
-    "portafolios",
-    "javascript",
     "html",
     "css",
-    "django",
-    "python"
+    "javascript"
   ],
   "author": "SebaLapalma",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SebaLapalma/Portfolio_8_bit/issues"
+    "url": "https://github.com/SebaLapalma/portfolio_8bit/issues"
   },
-  "homepage": "https://github.com/SebaLapalma/Portfolio_8_bit#readme"
+  "homepage": "https://github.com/SebaLapalma/portfolio_8bit#readme"
 }
